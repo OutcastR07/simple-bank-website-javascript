@@ -19,5 +19,5 @@ document.getElementById('btn-withdraw').addEventListener('click', function () {
 
     balanceTotalElement.innerText = currentBalanceTotal;
 
-    depositField.value = '';
+    withdrawField.value = '';
 })
